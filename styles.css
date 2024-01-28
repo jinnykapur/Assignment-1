@@ -10,10 +10,10 @@ body{
 	margin-bottom: -32px;
 }
 
-/* Hero section */
+
 
 .hero__section{
-	background-image: url('./Images/heroSectionBackground.png');
+	background-image: url('heroSectionBackground.png');
 	height: 400px;
 	background-size: cover;
 	background-position: center;
@@ -116,7 +116,7 @@ body{
 	width: 65%;
 }
 
-/* Media Queries for Hero Section */
+
 
 @media only screen and (max-width: 685px){
 	.navbar__menu_container .user_icon{
@@ -165,7 +165,7 @@ body{
 	}
 }
 
-/* Cards section */
+
 
 .container_cards{
 	margin: 3rem auto;
@@ -211,7 +211,7 @@ body{
 	font-weight: 400;	
 }
 
-/* Collections section */
+
 
 .container_collections{
 	margin: 3rem auto;
@@ -267,19 +267,19 @@ body{
 } 
 
 .card1{
-	background-image: url('./Images/collection1.jpg');
+	background-image: url('collection1.jpg');
 }
 
 .card2{
-	background-image: url('./Images/collection2.jpg');
+	background-image: url('collection2.jpg');
 }
 
 .card3{
-	background-image: url('./Images/collection3.jpg');
+	background-image: url('collection3.jpg');
 }
 
 .card4{
-	background-image: url('./Images/collection4.jpg');
+	background-image: url('collection4.jpg');
 }
 
 .overlay{
@@ -304,7 +304,7 @@ body{
 	z-index: 6;
 }
 
-/* This is for get the App section */
+
 
 .container__get_the_App{
 	display: flex;
@@ -425,7 +425,7 @@ body{
 	width: 30%;
 }
 
-/* Media Queries for get App section */
+
 
 @media only screen and (max-width: 1300px){
     .container__get_the_App .semi_container .semi_container__left,
@@ -451,7 +451,7 @@ body{
 	}
 }
 
-/* This is for Explore places section */
+
 
 .explore_places__container{
 	width: 90%;
@@ -484,7 +484,7 @@ body{
 	padding: 15px;
 }
 
-/* Media Queries for explore section */
+
 
 @media only screen and (max-width: 900px){
 	.drop_down_menu{
@@ -498,7 +498,7 @@ body{
 	}
 }
 
-/* This is for the footer section */
+
 
 .footer__container{
 	width: 90%;
@@ -609,7 +609,7 @@ body{
 	padding-top: 20px;
 }
 
-/* Media queries for footer section */
+
 
 @media only screen and (max-width: 900px){
     .navigation_container{
