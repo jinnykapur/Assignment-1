@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		
+		
+		<link 
+		rel = "icon"
+		href = "./Images/zomato-logo-1.png"; 
+		/>
+		
+		
+		<link
+		rel = "stylesheet"
+		href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		integrity = "sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+		crossorigin = "anonymous"
+		referrerpolicy = "no-referrer"
+		/>
+		
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+		rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		/>
+		
+		
+		<link rel = "stylesheet" href = "./styles.css" />
+		
+		<title>Zomato Landing Page Clone</title>
+	</head>
+	<body>
+		<!-- This is for hero section -->
+		<section class = "hero__section">
+			<header>
+				<nav class = "navbar">
+					 
+					<a style="text-decoration:none" href="/mobile" class="sc-ldcLGC sc-hXhGGG ehEqDr">
+						<i class="sc-rbbb40-1 iFnyeo sc-hTQSVH elDYvD" size="10" color="#FFFFFF">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="10" height="10" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 gvsUip">
+								<title>download-app</title>
+								<path d="M18.5793 9.18939H16.5865H16.3199C15.7307 9.18939 15.2529 9.6672 15.2529 10.2583V10.3742C15.2529 10.9659 15.7307 11.444 16.3207 11.444H18.3156H18.5793C19.1696 11.444 19.6488 10.9639 19.6488 10.3742L19.6477 10.2569C19.6488 9.6672 19.1696 9.18939 18.5793 9.18939Z"></path><path d="M18.5804 6.52262H18.1097V1.35122C18.1097 0.607964 17.5017 0 16.7582 0H7.84167C7.09841 0 6.49045 0.608249 6.49045 1.35122V5.06151C4.69196 6.07821 2.83696 7.14029 2.83296 7.14286C1.82597 7.5573 0.350586 8.89453 0.350586 12.0522C0.350586 12.3342 0.369139 12.5945 0.395113 12.846C0.40339 12.9197 0.412524 12.9904 0.422514 13.0615C0.448488 13.2462 0.481027 13.4229 0.519845 13.5907C0.533831 13.6506 0.544678 13.7131 0.559805 13.7705C0.612039 13.9646 0.67255 14.1467 0.740482 14.32C0.774733 14.4059 0.811839 14.4841 0.84923 14.5646C0.88919 14.6494 0.929436 14.7327 0.972535 14.8106C1.02249 14.9045 1.07244 14.995 1.12724 15.0809C1.14037 15.1009 1.15464 15.1192 1.16805 15.1394C2.46847 17.1052 4.8675 17.114 4.8675 17.114H6.49045V18.6494C6.49045 19.3918 7.09841 19.9997 7.84167 19.9997H16.7579C17.5014 19.9997 18.1094 19.3915 18.1094 18.6494V16.7767H18.3155V16.7755H18.5784C19.1695 16.7755 19.6487 16.2974 19.6476 15.7063L19.6487 15.5898C19.6476 14.9996 19.1695 14.5229 18.5792 14.5229H18.3155H16.5861H16.3195C15.7292 14.5229 15.2525 15.0007 15.2525 15.5907V15.7091C15.2525 16.2977 15.7304 16.7775 16.3203 16.7775H17.1692V17.5008H7.43036V7.79877C7.91959 7.48851 8.37256 7.18995 8.63088 6.98987C9.93957 5.97774 11.1818 5.17169 11.3499 4.4407C11.5688 3.49222 10.8407 2.69302 9.57765 3.34922C9.17976 3.55587 8.36315 4.00885 7.43036 4.53261V2.14129L17.1692 2.14271V6.52205H16.5861V6.52319H16.3209C15.7304 6.52319 15.2511 7.001 15.2511 7.59269V7.70858C15.2511 8.29999 15.7303 8.77665 16.3195 8.77665H16.5846H18.3141H18.5798C19.1695 8.77665 19.6476 8.29884 19.6476 7.70858V7.58955C19.6487 7.00186 19.1709 6.52262 18.5804 6.52262ZM12.2986 17.9752C12.6731 17.9752 12.9751 18.2774 12.9751 18.6511C12.9751 19.0255 12.6728 19.3267 12.2986 19.3267C11.9256 19.3267 11.6242 19.0247 11.6242 18.6511C11.6247 18.2786 11.927 17.9752 12.2986 17.9752ZM13.7266 1.30098H10.8735C10.7839 1.30098 10.7097 1.2282 10.7097 1.13829C10.7097 1.04695 10.7839 0.974169 10.8735 0.974169H13.7266C13.8163 0.974169 13.8893 1.04667 13.8893 1.13829C13.8893 1.22792 13.8163 1.30098 13.7266 1.30098Z"></path><path d="M18.5788 11.8561H18.3151H16.3193C15.7302 11.8561 15.251 12.3353 15.251 12.9253V13.0423C15.251 13.6329 15.7291 14.1107 16.3193 14.1107H16.5845H18.3139H18.5782C19.1693 14.1107 19.646 13.6329 19.6474 13.0423V12.9253C19.6472 12.3353 19.1705 11.8561 18.5788 11.8561Z">
+		
+								</path>
+							</svg>
+						</i><font size="-1">Get the App</font></a>
+					<div class = "navbar__menu_container">
+						<a style="text-decoration:none" href = "#" class = "link" >Investor Relations</a>
+						<a style="text-decoration:none" href = "#" class = "link" >Add Restaurants</a>
+						<a style="text-decoration:none" href = "#" class = "link" >Login</a>
+						<a style="text-decoration:none" href = "#" class = "link" >Sign Up</a>
+						<a style="text-decoration:none" href = "#" class = "user_icon"><i class="fa-solid fa-user"></i></a>
+					</div>
+				</nav>
+			</header>
+			<div class = "hero__section_container">
+				<img src = "./Images/heroSectionLogo.png" alt = "Zomato Logo" class = "hero__section_logo" />
+				<h1 class = "hero__section_heading">Discover the best food & drinks in Chandigarh</h1>
+				<div class = "hero__section_container_input">
+					<i class="fa-sharp fa-solid fa-location-dot" id = "location_icon"></i>
+					<select class = "hero__section_input_location">
+						<option>Chandigarh</option>
+						<option>Mohali</option>
+						<option>Panchkula</option>
+						
+					</select>
+					<i class="fa-solid fa-magnifying-glass" id = "search_icon"></i>
+					<input class = "hero__section_input_search" type = "text" placeholder = "Search for a restaurant, cuisine or a dish" />
+				</div>
+			</div>
+		</section>
+		
+		<section class = "container_cards">
+		
+			 <div class = "we_offer__cards">
+				<img src = "./Images/item1.png" alt = "card1 image"/>
+				<div class = "we_offer__cards_content">
+					<h2>Order Online</h2>
+					<p>Stay home and order to your doorstep</p>
+				</div>
+			 </div>
+			 
+			 <div class = "we_offer__cards">
+				<img src = "./Images/item2.png" alt = "card1 image"/>
+				<div class = "we_offer__cards_content">
+					<h2>Dining</h2>
+					<p>View the city's favourite dining venues</p>
+				</div>
+			 </div>
+			 
+			 <div class = "we_offer__cards">
+				<img src = "./Images/item3.png" alt = "card1 image"/>
+				<div class = "we_offer__cards_content">
+					<h2>Nightlife and clubs</h2>
+					<p>Explore the city's top nightlife outlets</p>
+				</div>
+			 </div>
+			 
+			 <div class = "we_offer__cards">
+				<img src = "./Images/item4.png" alt = "card1 image"/>
+				<div class = "we_offer__cards_content">
+					<h2>Takeaway services</h2>
+					<p>We ensure timely delivery to our customers</p>
+				</div>
+			 </div>
+			 
+		</section>
+		
+		<section class = "container_collections">
+			<h1>Collections</h1>
+			<div class = "sub_heading__container">
+				<span>Explore curated lists of top restaurants, cafes, pubs in Chandigarh based on trends</span>
+				<span id = "span">All collections in Chandigarh</span>
+			</div>
+			<div class = "collections__cards_container">
+					
+				<div class = "cards card1">
+					<div class = "overlay"></div>
+					<div class = "collections__content">
+						<h4>Newly Opened Restuarants </h4>
+						<span>11 places</span>
+					</div>
+				</div>
+				
+				<div class = "cards card2">
+					<div class = "overlay"></div>
+					<div class = "collections__content">
+						<h4>Best In Chandigarh</h4>
+						<span>20 places</span>
+					</div>
+				</div>
+				
+				<div class = "cards card3">
+					<div class = "overlay"></div>
+					<div class = "collections__content">
+						<h4>Best Insta-worthy Places</h4>
+						<span>7 places</span>
+					</div>
+				</div>
+				
+				<div class = "cards card4">
+					<div class = "overlay"></div>
+					<div class = "collections__content">
+						<h4>Finest Microbreweries</h4>
+						<span>6 places</span>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		
+		<section class = "container__get_the_App">
+			<div class = "semi_container">
+				<div class = "semi_container__left">
+					<img src = "./Images/mobileBanner.png" alt = "mobile image" />
+				</div>
+				<div class = "semi_container__right">
+					<h1>Get the Zomato App</h1>
+					<p>We will send you a link, open it and download the app now</p>
+					<div class = "radio_button__container">
+						<div>
+							<input type = "radio" id = "email" name = "downloadApp" />
+							<label for = "email" style = "font-size:14px;">Email</label>
+						</div>
+							<div>
+							<input type = "radio" id = "phone" name = "downloadApp" />
+							<label for = "phone" style = "font-size:14px;">Phone</label>
+						</div>
+					</div>
+					<div class = "input__container">
+						<input type = "text" placeholder = "Email" />
+						<button>Share App Link</button>
+					</div>
+					<div class = "download_app__container">
+						<h5>Download App From</h5>
+						<div>
+							<img src = "./Images/appleStore.png" alt = "Apple store" />
+							<img src = "./Images/playStore.png" alt = "Play store" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class = "explore_places__container">
+			<div class = "sub_container">
+				<div>
+					<h1>Explore Options Near Me</h1>
+					
+				</div>
+				<div class = "drop_down__container">
+					<div>
+						<select class = "drop_down_menu">
+							<option>Popular cuisines Near Me</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+						</select>
+					</div>
+					<div>
+						<select class = "drop_down_menu">
+							<option>Popular Restaurant Near Me</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+						</select>
+					</div>
+					<div>
+						<select class = "drop_down_menu">
+							<option>Cities We Deliver To</option>
+							<option>Chandigarh</option>
+							<option>Mohali</option>
+							<option>Panchkula</option>
+							
+						</select>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<footer class = "footer__container">
+			<div class = "footer_section1">
+				<img src = "./Images/logo.png" alt = "zomato logo" />
+				<div class = "section1__button_container">
+					<button>
+						<img src = "./Images/IndianFlag.png" alt = "Indian Flag" style = "width: 16px; height: 16px" />
+						<select style = "border: none; background: #e8e8e8; cursor: pointer">
+							<option>India</option>
+							
+							
+						</select>
+					</button>
+					<button>
+						<i class = "fa fa-globe"></i>
+						<select style = "border: none; background: #e8e8e8; cursor: pointer">
+							<option>English</option>
+							<option>Türkçe</option>
+							<option>हिंदी</option>
+							<option>Português (BR)</option>
+							<option>Indonesian</option>
+							<option>Português (PT)</option>
+							<option>Español</option>
+							<option>Čeština</option>
+							<option>Slovenčina</option>
+							<option>Italian</option>
+							<option>Polish</option>
+							<option>Vietnamese</option>
+						</select>
+					</button>
+				</div>
+			</div>
+			<div class = "navigation_container">
+				<div class = "link_container">
+					<h5>About Zomato</h5>
+					<div class = "link_container_anchors">
+						<a href = "#">Who We Are</a>
+						<a href = "#">Blog</a>
+						<a href = "#">Work With Us</a>
+						<a href = "#">Investor Relations</a>
+						<a href = "#">Report Fraud</a>
+						<a href = "#">Press Kit</a>
+						<a href = "#">Contact Us</a>
+					</div>
+				</div>
+				
+				<div class = "link_container">
+					<h5>Zomaverse</h5>
+					<div class = "link_container_anchors">
+						<a href = "#">Zomato</a>
+						<a href = "#">Blinkit</a>
+						<a href = "#">Feeding India</a>
+						<a href = "#">Hyperpure</a>
+						<a href = "#">Zomaland</a>
+					</div>
+				</div>
+				
+				<div class = "link_container">
+					<h5>For Restaurants</h5>
+					<div class = "link_container_anchors">
+						<a href = "#">Partner With Us</a>
+						<a href = "#">Apps For You</a>
+					</div>
+					<h5 id = "enterprises">For Enterprises</h5>
+					<div class = "link_container_anchors">
+						<a href = "#">Zomato For Enterprise</a>
+					</div>
+				</div>
+				
+				<div class = "link_container">
+					<h5>Learn More</h5>
+					<div class = "link_container_anchors">
+						<a href = "#">Privacy</a>
+						<a href = "#">Security</a>
+						<a href = "#">Terms</a>
+						<a href = "#">Sitemap</a>
+					</div>
+				</div>
+				
+				<div class = "link_container">
+					<h5>Social Links</h5>
+					<div class = "social_media_icon_buttons">
+						<button><i class="fa-brands fa-linkedin-in"></i>	</button>
+						<button><i class = "fa-brands fa-instagram"></i></button>
+						<button><i class = "fa-brands fa-twitter"></i></button>
+						<button><i class = "fa-brands fa-facebook"></i></button>
+						<button><i class = "fa-brands fa-youtube"></i></button>
+						<div class = "social_media_logos">
+							<img src = "./Images/appleStore.png" alt = "Apple store" />
+							<img src = "./Images/playStore.png" alt = "Play store" id = "img2"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class = "disclaimer">
+			By continuing past this page, you agree to our Terms of Service, Cookie Policy,
+			Privacy Policy and Content Policies. All trademarks are properties of their respective owners.
+			2008-2023 © Zomato™ Ltd. All rights reserved.
+			</div>
+		</footer>
+	</body>
+</html>
